@@ -1,1 +1,8 @@
 /* Your code here */
+.card-1 {
+  background-color: aqua; 
+}
+
+.card-1 h1 {
+ color: purple;
+}
