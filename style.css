@@ -1,8 +1,27 @@
 /* Your code here */
 .card-1 {
-  background-color: aqua; 
+  position: relative;
+  
+}
+
+.card-1 .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 50px solid;
+  border-top-width: 50px;
+  border-top-color: yellow;
+  border-bottom-color: orange;
+  border-right-color:aquamarine;
+  border-left-color: red; 
+  background-color: black;
+  width: 3.5in;
+  height: 2in;
+  box-sizing: border-box;
 }
 
 .card-1 h1 {
- color: purple;
+ color:;
 }
