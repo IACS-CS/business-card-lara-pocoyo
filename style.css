@@ -1,4 +1,9 @@
 /* Your code here */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 .card-1 {
   position: relative;
   
@@ -12,7 +17,7 @@
   height: 10px;
   border: 50px solid;
   border-top-width: 50px;
-  border-top-color: yellow;
+  border-top-color: rgb(243, 243, 21);
   border-bottom-color: orange;
   border-right-color:aquamarine;
   border-left-color: red; 
@@ -21,7 +26,17 @@
   height: 2in;
   box-sizing: border-box;
 }
+  .card-1 .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.5in;
+  height: 2in;
+}
 
 .card-1 h1 {
- color:;
+  color:white;
+  padding-left:50px;
+  padding-top: 22px;
+  font-family:; 
 }
