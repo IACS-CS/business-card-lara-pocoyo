@@ -1,7 +1,6 @@
 /* Your code here */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 
 
 .card-1 {
@@ -15,8 +14,8 @@
   left: 0;
   width: 10px;
   height: 10px;
-  border: 50px solid;
-  border-top-width: 50px;
+  border: 40px solid;
+  border-top-width: 40px;
   border-top-color: rgb(243, 243, 21);
   border-bottom-color: orange;
   border-right-color:aquamarine;
@@ -36,7 +35,8 @@
 
 .card-1 h1 {
   color:white;
-  padding-left:50px;
+  padding-left:60px;
   padding-top: 22px;
-  font-family:; 
+  font-family:Lobster;
+
 }
