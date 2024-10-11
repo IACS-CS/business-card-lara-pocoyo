@@ -17,7 +17,7 @@
   border-top-width: 40px;
   border-top-color: rgb(243, 243, 21);
   border-bottom-color: orange;
-  border-right-color:aquamarine;
+  border-right-color:rgb(63, 182, 142);
   border-left-color: red; 
   background-color: black;
   width: 3.5in;
@@ -35,7 +35,7 @@
 }
 
 .card-1 h1 {
-  color:white;
+  color:rgb(221, 213, 213);
   padding-left:60px;
   padding-top: 12px;
   font-family:Lobster;
@@ -44,4 +44,23 @@
 .card-1 img {
   margin-left:109px;
   margin-top:-27px;
+}
+
+/* Card 2 */
+.card-2 .top {
+  height: 60%;
+  background-color: rgb(228, 219, 220);
+}
+.card-2 .bottom {
+  height: 40%;
+  background-color: rgb(14, 44, 31);
+}
+ .card-2 .top-left{
+  height:10%;
+  background-color:white;}
+  .card-2 .bottom-left{
+    height: 10%;
+  }
+.big {
+  font-size: 40pt;
 }
