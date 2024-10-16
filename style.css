@@ -96,6 +96,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
   }
 
 
@@ -148,3 +149,38 @@ flex-direction: column;
     font-size:x-small;
      color: rgb(173, 140, 100);
   }
+
+  .card-3{
+    background-color: black;
+    border-radius: 15%;
+     
+  }
+  
+  .top {
+height: 60%;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
+  .bottom {
+    height:40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    align-items: center;
+  }
+
+  .simbolo{ 
+    height: 30px;
+    width: 40px;
+  }
+
+  .justdoit{
+    height: 68px;
+    width: 123px;
+
+  }
+  

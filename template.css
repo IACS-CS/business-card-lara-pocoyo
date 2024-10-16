@@ -16,6 +16,7 @@ do not modify
 .card.portrait {
   height: 3.5in;
   width: 2in;
+
 }
 body {
   display: flex;
