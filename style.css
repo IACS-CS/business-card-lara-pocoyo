@@ -47,20 +47,104 @@
 }
 
 /* Card 2 */
+.card-2{
+  display:flex;
+  flex-direction: column;
+}
 .card-2 .top {
+  display:flex;
+  flex-direction: row;
   height: 60%;
-  background-color: rgb(228, 219, 220);
+  width: 100%;
+  background-color: rgb(131, 19, 169);
 }
 .card-2 .bottom {
   height: 40%;
+  width: 100%;
   background-color: rgb(14, 44, 31);
+  /*align-self: flex-end;*/
+  display: flex;
+  flex-direction: row;
 }
- .card-2 .top-left{
-  height:10%;
-  background-color:white;}
+.card-2 .top-right{
+height: 100%;
+width: 60%;
+background-color:rgb(226, 230, 228);
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.card-2 .top-left{
+     height: 100%;
+    width: 40%;
+    background-color: rgb(226, 230, 228);
+    display: flex;
+    padding-top: 0px;
+    margin-top: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+  
   .card-2 .bottom-left{
-    height: 10%;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(28, 75, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-.big {
-  font-size: 40pt;
-}
+
+
+  .card-2 .bottom-right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(28, 75, 31);;
+  }
+
+  .cavalinho{
+    height: 30%;
+    width: 40%;
+  }
+
+  .PEGASUS {
+    font-family:'Times New Roman', Times, serif;
+    font-size: smaller;
+    height: 15%;
+    color:rgb(14, 44, 31);
+    
+  }
+  /* eliminate margins within top-left */
+  .card-2 p,.card-2 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .FINANCES {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    display: flex;
+    height: 15%;
+    color: rgb(28, 75, 31);
+  }
+  .name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    color: rgb(28, 75, 31);
+    display: flex;
+
+  }
+  .director{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    display: flex;
+    color: rgb(175, 104, 16);
+  }
+  .information{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size:x-small;
+     color: rgb(173, 140, 100);
+  }
